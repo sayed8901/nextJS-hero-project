@@ -1,0 +1,352 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Electronics",
+      "imgUrl": "https://example.com/electronics.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Clothing",
+      "imgUrl": "https://example.com/clothing.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Books",
+      "imgUrl": "https://example.com/books.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Home Appliances",
+      "imgUrl": "https://example.com/appliances.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Sports & Outdoors",
+      "imgUrl": "https://example.com/sports.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Beauty & Personal Care",
+      "imgUrl": "https://example.com/beauty.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Toys & Games",
+      "imgUrl": "https://example.com/toys.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Furniture",
+      "imgUrl": "https://example.com/furniture.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Jewelry",
+      "imgUrl": "https://example.com/jewelry.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Grocery",
+      "imgUrl": "https://example.com/grocery.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Smartphone XYZ-200",
+      "price": 599.99,
+      "categoryID": 1,
+      "features": ["5G Connectivity", "Quad-Camera Setup", "128GB Storage"],
+      "imgUrl": "https://example.com/smartphone.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Wireless Bluetooth Earbuds",
+      "price": 49.99,
+      "categoryID": 1,
+      "features": [
+        "True Wireless",
+        "Noise Cancellation",
+        "20-Hour Battery Life"
+      ],
+      "imgUrl": "https://example.com/earbuds.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Gaming Laptop GTX-900",
+      "price": 1299.99,
+      "categoryID": 1,
+      "features": ["NVIDIA GTX 900 Series", "16GB RAM", "RGB Backlit Keyboard"],
+      "imgUrl": "https://example.com/gaminglaptop.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Men's Classic Polo Shirt",
+      "price": 29.99,
+      "categoryID": 2,
+      "features": [
+        "Cotton Fabric",
+        "Available in Various Colors",
+        "Comfortable Fit"
+      ],
+      "imgUrl": "https://example.com/poloshirt.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Women's Casual Dress",
+      "price": 39.99,
+      "categoryID": 2,
+      "features": ["Soft Material", "Floral Print", "A-Line Silhouette"],
+      "imgUrl": "https://example.com/dress.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Men's Running Shoes",
+      "price": 79.99,
+      "categoryID": 2,
+      "features": ["Breathable Mesh", "Cushioned Sole", "Reflective Details"],
+      "imgUrl": "https://example.com/runningshoes.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Bestseller Novel: 'Mystic Adventure'",
+      "price": 14.99,
+      "categoryID": 3,
+      "features": ["Fantasy Genre", "500 Pages", "Engaging Plot"],
+      "imgUrl": "https://example.com/novel.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Educational Children's Book Set",
+      "price": 24.99,
+      "categoryID": 3,
+      "features": [
+        "Interactive Learning",
+        "Colorful Illustrations",
+        "Set of 5 Books"
+      ],
+      "imgUrl": "https://example.com/childrensbooks.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Home and Garden Design Guide",
+      "price": 34.99,
+      "categoryID": 3,
+      "features": ["Inspiring Ideas", "Practical Tips", "Stunning Photography"],
+      "imgUrl": "https://example.com/designguide.jpg"
+    },
+    {
+      "id": 10,
+      "title": "High-Performance Blender",
+      "price": 129.99,
+      "categoryID": 4,
+      "features": ["1000W Motor", "BPA-Free Materials", "Multiple Speeds"],
+      "imgUrl": "https://example.com/blender.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Robot Vacuum Cleaner",
+      "price": 299.99,
+      "categoryID": 4,
+      "features": ["Smart Mapping", "Voice Control", "HEPA Filter"],
+      "imgUrl": "https://example.com/robotvacuum.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Air Purifier",
+      "price": 179.99,
+      "categoryID": 4,
+      "features": [
+        "True HEPA Filter",
+        "Quiet Operation",
+        "Coverage up to 500 sq ft"
+      ],
+      "imgUrl": "https://example.com/airpurifier.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Outdoor Camping Tent",
+      "price": 199.99,
+      "categoryID": 5,
+      "features": ["4-Person Capacity", "Weather-Resistant", "Easy Setup"],
+      "imgUrl": "https://example.com/tent.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Portable Camping Hammock",
+      "price": 59.99,
+      "categoryID": 5,
+      "features": ["Durable Nylon", "Easy to Pack", "Supports up to 400 lbs"],
+      "imgUrl": "https://example.com/hammock.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Camping Cookware Set",
+      "price": 39.99,
+      "categoryID": 5,
+      "features": [
+        "Compact and Lightweight",
+        "Non-Stick Pots and Pans",
+        "Includes Utensils"
+      ],
+      "imgUrl": "https://example.com/campingcookware.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Organic Moisturizing Cream",
+      "price": 24.99,
+      "categoryID": 6,
+      "features": [
+        "Natural Ingredients",
+        "Deep Hydration",
+        "Suitable for All Skin Types"
+      ],
+      "imgUrl": "https://example.com/moisturizer.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Anti-Aging Serum",
+      "price": 39.99,
+      "categoryID": 6,
+      "features": ["Collagen Boost", "Vitamin C", "Reduces Fine Lines"],
+      "imgUrl": "https://example.com/serum.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Men's Grooming Kit",
+      "price": 29.99,
+      "categoryID": 6,
+      "features": ["Beard Trimmer", "Facial Cleanser", "Moisturizing Lotion"],
+      "imgUrl": "https://example.com/groomingkit.jpg"
+    },
+    {
+      "id": 19,
+      "title": "LEGO Creator Expert Carousel",
+      "price": 149.99,
+      "categoryID": 7,
+      "features": [
+        "Authentic Carousel Design",
+        "2670 Pieces",
+        "Motorized Function"
+      ],
+      "imgUrl": "https://example.com/lego.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Board Games Collection",
+      "price": 79.99,
+      "categoryID": 7,
+      "features": [
+        "Variety of Classic Games",
+        "Family-Friendly",
+        "Hours of Fun"
+      ],
+      "imgUrl": "https://example.com/boardgames.jpg"
+    },
+    {
+      "id": 21,
+      "title": "Puzzle Set: Famous Landmarks",
+      "price": 29.99,
+      "categoryID": 7,
+      "features": [
+        "1000-Piece Puzzle",
+        "Challenging and Enjoyable",
+        "Beautiful Artwork"
+      ],
+      "imgUrl": "https://example.com/puzzle.jpg"
+    },
+    {
+      "id": 22,
+      "title": "Wooden Coffee Table",
+      "price": 159.99,
+      "categoryID": 8,
+      "features": ["Solid Wood Construction", "Modern Design", "Easy Assembly"],
+      "imgUrl": "https://example.com/coffeetable.jpg"
+    },
+    {
+      "id": 23,
+      "title": "Sectional Sofa",
+      "price": 799.99,
+      "categoryID": 8,
+      "features": ["L-Shaped Design", "Soft Upholstery", "Spacious Seating"],
+      "imgUrl": "https://example.com/sofa.jpg"
+    },
+    {
+      "id": 24,
+      "title": "Dining Table Set",
+      "price": 349.99,
+      "categoryID": 8,
+      "features": [
+        "Table with Chairs",
+        "Modern Minimalist Style",
+        "Sturdy Construction"
+      ],
+      "imgUrl": "https://example.com/diningset.jpg"
+    },
+    {
+      "id": 25,
+      "title": "Silver Gemstone Necklace",
+      "price": 89.99,
+      "categoryID": 9,
+      "features": [
+        "925 Sterling Silver",
+        "Sapphire Gemstone",
+        "Elegant Design"
+      ],
+      "imgUrl": "https://example.com/necklace.jpg"
+    },
+    {
+      "id": 26,
+      "title": "Gold Plated Bracelet",
+      "price": 69.99,
+      "categoryID": 9,
+      "features": [
+        "18K Gold Plating",
+        "Cubic Zirconia Stones",
+        "Adjustable Fit"
+      ],
+      "imgUrl": "https://example.com/bracelet.jpg"
+    },
+    {
+      "id": 27,
+      "title": "Men's Leather Wallet",
+      "price": 39.99,
+      "categoryID": 9,
+      "features": ["Genuine Leather", "Slim Design", "Multiple Card Slots"],
+      "imgUrl": "https://example.com/wallet.jpg"
+    },
+    {
+      "id": 28,
+      "title": "Fresh Organic Fruits Box",
+      "price": 29.99,
+      "categoryID": 10,
+      "features": ["Assorted Fruits", "Locally Sourced", "Healthy Snacking"],
+      "imgUrl": "https://example.com/fruits.jpg"
+    },
+    {
+      "id": 29,
+      "title": "Pantry Staples Bundle",
+      "price": 49.99,
+      "categoryID": 10,
+      "features": [
+        "Variety of Essentials",
+        "Long Shelf Life",
+        "Stock Your Pantry"
+      ],
+      "imgUrl": "https://example.com/pantrystaples.jpg"
+    },
+    {
+      "id": 30,
+      "title": "Premium Coffee Beans",
+      "price": 14.99,
+      "categoryID": 10,
+      "features": [
+        "Single-Origin Beans",
+        "Rich and Bold Flavor",
+        "Roasted to Perfection"
+      ],
+      "imgUrl": "https://example.com/coffee.jpg"
+    }
+  ]
+}

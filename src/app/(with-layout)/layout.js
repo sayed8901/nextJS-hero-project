@@ -3,7 +3,7 @@ import React from 'react';
 
 const WithLayout = ( {children} ) => {
     return (
-        <div>
+        <div className="container mx-auto">
             <Navbar/>
             {children}
             <footer>Footer</footer>
