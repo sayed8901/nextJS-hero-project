@@ -2,7 +2,7 @@ import getAllProducts from "@/utilities/getAllProducts";
 import ManageProduct from "./ManageProduct";
 
 export const metadata = {
-    title: 'Manage-product " Next hero',
+    title: 'Manage-product | Next hero',
     description: 'Next programming hero',
   }
   

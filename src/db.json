@@ -57,7 +57,11 @@
       "title": "Smartphone XYZ-200",
       "price": 599.99,
       "categoryID": 1,
-      "features": ["5G Connectivity", "Quad-Camera Setup", "128GB Storage"],
+      "features": [
+        "5G Connectivity",
+        "Quad-Camera Setup",
+        "128GB Storage"
+      ],
       "imgUrl": "https://example.com/smartphone.jpg"
     },
     {
@@ -77,13 +81,17 @@
       "title": "Gaming Laptop GTX-900",
       "price": 1299.99,
       "categoryID": 1,
-      "features": ["NVIDIA GTX 900 Series", "16GB RAM", "RGB Backlit Keyboard"],
+      "features": [
+        "NVIDIA GTX 900 Series",
+        "16GB RAM",
+        "RGB Backlit Keyboard"
+      ],
       "imgUrl": "https://example.com/gaminglaptop.jpg"
     },
     {
       "id": 4,
       "title": "Men's Classic Polo Shirt",
-      "price": 29.99,
+      "price": "30.99",
       "categoryID": 2,
       "features": [
         "Cotton Fabric",
@@ -97,23 +105,23 @@
       "title": "Women's Casual Dress",
       "price": 39.99,
       "categoryID": 2,
-      "features": ["Soft Material", "Floral Print", "A-Line Silhouette"],
+      "features": [
+        "Soft Material",
+        "Floral Print",
+        "A-Line Silhouette"
+      ],
       "imgUrl": "https://example.com/dress.jpg"
-    },
-    {
-      "id": 6,
-      "title": "Men's Running Shoes",
-      "price": 79.99,
-      "categoryID": 2,
-      "features": ["Breathable Mesh", "Cushioned Sole", "Reflective Details"],
-      "imgUrl": "https://example.com/runningshoes.jpg"
     },
     {
       "id": 7,
       "title": "Bestseller Novel: 'Mystic Adventure'",
-      "price": 14.99,
+      "price": "14.99",
       "categoryID": 3,
-      "features": ["Fantasy Genre", "500 Pages", "Engaging Plot"],
+      "features": [
+        "Fantasy Genre",
+        "500 Pages",
+        "Engaging Plot"
+      ],
       "imgUrl": "https://example.com/novel.jpg"
     },
     {
@@ -133,7 +141,11 @@
       "title": "Home and Garden Design Guide",
       "price": 34.99,
       "categoryID": 3,
-      "features": ["Inspiring Ideas", "Practical Tips", "Stunning Photography"],
+      "features": [
+        "Inspiring Ideas",
+        "Practical Tips",
+        "Stunning Photography"
+      ],
       "imgUrl": "https://example.com/designguide.jpg"
     },
     {
@@ -141,7 +153,11 @@
       "title": "High-Performance Blender",
       "price": 129.99,
       "categoryID": 4,
-      "features": ["1000W Motor", "BPA-Free Materials", "Multiple Speeds"],
+      "features": [
+        "1000W Motor",
+        "BPA-Free Materials",
+        "Multiple Speeds"
+      ],
       "imgUrl": "https://example.com/blender.jpg"
     },
     {
@@ -149,7 +165,11 @@
       "title": "Robot Vacuum Cleaner",
       "price": 299.99,
       "categoryID": 4,
-      "features": ["Smart Mapping", "Voice Control", "HEPA Filter"],
+      "features": [
+        "Smart Mapping",
+        "Voice Control",
+        "HEPA Filter"
+      ],
       "imgUrl": "https://example.com/robotvacuum.jpg"
     },
     {
@@ -169,7 +189,11 @@
       "title": "Outdoor Camping Tent",
       "price": 199.99,
       "categoryID": 5,
-      "features": ["4-Person Capacity", "Weather-Resistant", "Easy Setup"],
+      "features": [
+        "4-Person Capacity",
+        "Weather-Resistant",
+        "Easy Setup"
+      ],
       "imgUrl": "https://example.com/tent.jpg"
     },
     {
@@ -177,7 +201,11 @@
       "title": "Portable Camping Hammock",
       "price": 59.99,
       "categoryID": 5,
-      "features": ["Durable Nylon", "Easy to Pack", "Supports up to 400 lbs"],
+      "features": [
+        "Durable Nylon",
+        "Easy to Pack",
+        "Supports up to 400 lbs"
+      ],
       "imgUrl": "https://example.com/hammock.jpg"
     },
     {
@@ -209,7 +237,11 @@
       "title": "Anti-Aging Serum",
       "price": 39.99,
       "categoryID": 6,
-      "features": ["Collagen Boost", "Vitamin C", "Reduces Fine Lines"],
+      "features": [
+        "Collagen Boost",
+        "Vitamin C",
+        "Reduces Fine Lines"
+      ],
       "imgUrl": "https://example.com/serum.jpg"
     },
     {
@@ -217,7 +249,11 @@
       "title": "Men's Grooming Kit",
       "price": 29.99,
       "categoryID": 6,
-      "features": ["Beard Trimmer", "Facial Cleanser", "Moisturizing Lotion"],
+      "features": [
+        "Beard Trimmer",
+        "Facial Cleanser",
+        "Moisturizing Lotion"
+      ],
       "imgUrl": "https://example.com/groomingkit.jpg"
     },
     {
@@ -261,7 +297,11 @@
       "title": "Wooden Coffee Table",
       "price": 159.99,
       "categoryID": 8,
-      "features": ["Solid Wood Construction", "Modern Design", "Easy Assembly"],
+      "features": [
+        "Solid Wood Construction",
+        "Modern Design",
+        "Easy Assembly"
+      ],
       "imgUrl": "https://example.com/coffeetable.jpg"
     },
     {
@@ -269,7 +309,11 @@
       "title": "Sectional Sofa",
       "price": 799.99,
       "categoryID": 8,
-      "features": ["L-Shaped Design", "Soft Upholstery", "Spacious Seating"],
+      "features": [
+        "L-Shaped Design",
+        "Soft Upholstery",
+        "Spacious Seating"
+      ],
       "imgUrl": "https://example.com/sofa.jpg"
     },
     {
@@ -313,7 +357,11 @@
       "title": "Men's Leather Wallet",
       "price": 39.99,
       "categoryID": 9,
-      "features": ["Genuine Leather", "Slim Design", "Multiple Card Slots"],
+      "features": [
+        "Genuine Leather",
+        "Slim Design",
+        "Multiple Card Slots"
+      ],
       "imgUrl": "https://example.com/wallet.jpg"
     },
     {
@@ -321,7 +369,11 @@
       "title": "Fresh Organic Fruits Box",
       "price": 29.99,
       "categoryID": 10,
-      "features": ["Assorted Fruits", "Locally Sourced", "Healthy Snacking"],
+      "features": [
+        "Assorted Fruits",
+        "Locally Sourced",
+        "Healthy Snacking"
+      ],
       "imgUrl": "https://example.com/fruits.jpg"
     },
     {

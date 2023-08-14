@@ -1,20 +1,18 @@
 "use client";
 
 import Modal from "@/components/Modal";
-import ManageSingleProduct from "./ManageSingleProduct";
-import { useRef, useState, useTransition } from "react";
-import { useRouter } from "next/navigation";
+import db from "@/db.json";
 
-const ManageProduct = ({ products }) => {
+import { useRef, useState } from "react";
+import ManageSingleProduct from "../manage-products/ManageSingleProduct";
+
+const AllProducts = () => {
+  const products = db.products;
+
+  const isLoading = false;
   const modalRef = useRef(null);
 
   const [updateData, setUpdateData] = useState(null);
-
-  const [isPending, startTransition] = useTransition();
-  const [loading, setLoading] = useState(false);
-  const isLoading = isPending || loading;
-
-  const router = useRouter();
 
   const openModal = (product) => {
     setUpdateData(product);
@@ -27,14 +25,12 @@ const ManageProduct = ({ products }) => {
   };
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
     const form = e.target;
     const title = form.title.value;
     const price = form.price.value;
     const newUpdatedData = { title, price };
 
     if (title && price) {
-      setLoading(true);
       try {
         const res = await fetch(
           `http://localhost:5000/products/${updateData?.id}`,
@@ -50,19 +46,13 @@ const ManageProduct = ({ products }) => {
         console.log(result);
         form.reset();
         closeModal();
-        setLoading(false);
-        startTransition(() => {
-          router.refresh();
-        });
       } catch (error) {
-        setLoading(false);
         console.log(error);
       }
     }
   };
 
   const handleDelete = async (id) => {
-    setLoading(true);
     try {
       const res = await fetch(`http://localhost:5000/products/${id}`, {
         method: "DELETE",
@@ -70,16 +60,13 @@ const ManageProduct = ({ products }) => {
           "content-type": "application/json",
         },
       });
-      console.log('Item deleted successfully.');
-      startTransition(() => {
-        router.refresh();
-      });
-      setLoading(false);
+      const result = await res.json();
+      console.log(result);
     } catch (error) {
-      setLoading(false);
       console.log(error);
     }
   };
+
 
   return (
     <div>
@@ -118,4 +105,4 @@ const ManageProduct = ({ products }) => {
   );
 };
 
-export default ManageProduct;
+export default AllProducts;

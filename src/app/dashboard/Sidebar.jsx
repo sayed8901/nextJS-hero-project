@@ -8,11 +8,15 @@ const navLinks = [
   },
   {
     path: "/dashboard/add-product",
-    title: "add-product",
+    title: "Add-product",
   },
   {
     path: "/dashboard/manage-products",
-    title: "manage-products",
+    title: "Manage-products",
+  },
+  {
+    path: "/dashboard/all-products",
+    title: "All-products",
   },
   {
     path: "/",
