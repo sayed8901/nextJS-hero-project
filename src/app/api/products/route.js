@@ -20,5 +20,8 @@ export const GET = (request) => {
 export const POST = async (request) => {
     const body = await request.json();
     db.products.push(body);
-    return NextResponse.json(products)
+    
+    return NextResponse.json(
+        { message: `Product Added Successfully!` },
+    )
 }
