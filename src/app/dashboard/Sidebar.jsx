@@ -32,7 +32,7 @@ const Sidebar = () => {
         {navLinks.map(({ path, title }) => (
           <li className="my-4" key={path}>
             <NavLink
-              exact={path === "/dashboard"}
+              exact={path === "/" || path === "/dashboard"}
               activeClassName="text-blue-500"
               href={path}
             >
