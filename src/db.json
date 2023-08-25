@@ -55,7 +55,7 @@
     {
       "id": 1,
       "title": "Smartphone XYZ-200",
-      "price": 599.99,
+      "price": "699.99",
       "categoryID": 1,
       "features": [
         "5G Connectivity",
