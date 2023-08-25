@@ -11,7 +11,7 @@ export const revalidate = 1;
 const HomePage = () => {
   return (
     <main>
-      <h1>Site HomePage</h1>
+      <h1>HomePage</h1>
 
       <Categories />
       <Suspense
